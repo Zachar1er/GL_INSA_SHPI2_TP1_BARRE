@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class System_hospitalier {
-
+//Ceci est la classe systeme hospitalier
     private List<Requête> listRequetes;
 
     public System_hospitalier(List<Requête> listRequetes) {
@@ -35,11 +35,13 @@ public class System_hospitalier {
 
     private String analyserRequete(Requête requête) {
         
-        return "requête analysée";
+        //Permet de confirmer que la requete a bien été analysée
+	return "requête analysée";
     }
 
     private String comparerDonnes() {
         
+	//Cette methode renvoit juste un texte
         return "Cluster trouvé";
     }
 
